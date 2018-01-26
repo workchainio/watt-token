@@ -12,8 +12,8 @@ import "contracts/token/ERC20/StandardToken.sol";
  */
 contract SimpleToken is StandardToken {
 
-  string public constant name = "JouleToken";
-  string public constant symbol = "JOULE";
+  string public constant name = "WorkToken";
+  string public constant symbol = "WORK";
   uint8 public constant decimals = 18;
 
   uint256 public constant INITIAL_SUPPLY = 10000 * (10 ** uint256(decimals));
