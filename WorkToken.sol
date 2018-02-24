@@ -1,7 +1,7 @@
 pragma solidity ^0.4.18;
 
 
-import "contracts/token/ERC20/StandardToken.sol";
+import "node_modules/zeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 
 
 /**

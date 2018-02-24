@@ -371,5 +371,6 @@ ENV/
 testeth
 .idea
 node_modules
+package-lock.json
 bin_output
 logs

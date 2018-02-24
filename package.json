@@ -1,0 +1,26 @@
+{
+  "name": "work",
+  "version": "1.1.0",
+  "description": "ERC20 token used on WorkChain.io platform.",
+  "main": " ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workchainio/work-token.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "erc20",
+    "work",
+    "token"
+  ],
+  "author": "Ivan Petrovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workchainio/work-token/issues"
+  },
+  "homepage": "https://workchain.io",
+  "dependencies": {
+    "zeppelin-solidity": "^1.7.0"
+  }
+}
