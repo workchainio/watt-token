@@ -21,6 +21,6 @@
   },
   "homepage": "https://workchain.io",
   "dependencies": {
-    "zeppelin-solidity": "^1.7.0"
+    "openzeppelin-solidity": "^1.9.0"
   }
 }
