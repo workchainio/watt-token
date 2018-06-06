@@ -1,5 +1,5 @@
 {
-  "name": "work",
+  "name": "work-token",
   "version": "1.1.0",
   "description": "ERC20 token used on WorkChain.io platform.",
   "main": " ",
@@ -20,7 +20,13 @@
     "url": "https://github.com/workchainio/work-token/issues"
   },
   "homepage": "https://workchain.io",
+  "scripts": {
+    "compile": "truffle compile"
+  },
   "dependencies": {
-    "openzeppelin-solidity": "^1.9.0"
+    "openzeppelin-solidity": "^1.10.0"
+  },
+  "devDependencies": {
+    "truffle": "^4.1.11"
   }
 }
