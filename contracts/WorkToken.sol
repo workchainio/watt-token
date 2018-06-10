@@ -1,8 +1,8 @@
 pragma solidity ^0.4.23;
 
-import "node_modules/openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
+import "../node_modules/openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 
-contract SimpleToken is StandardToken {
+contract WorkToken is StandardToken {
 
     string public constant name = "WorkToken";
     string public constant symbol = "WORK";
