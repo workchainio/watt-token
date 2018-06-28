@@ -21,7 +21,8 @@
   },
   "homepage": "https://workchain.io",
   "scripts": {
-    "compile": "truffle compile"
+    "compile": "truffle compile",
+    "version": "truffle version"
   },
   "dependencies": {
     "openzeppelin-solidity": "^1.10.0"
