@@ -1,3 +1,10 @@
+# custom
+build/*
+truffle.js
+
+
+
+
 # Created by .ignore support plugin (hsz.mobi)
 ### VisualStudioCode template
 .vscode/*
@@ -374,3 +381,4 @@ node_modules
 package-lock.json
 bin_output
 logs
+

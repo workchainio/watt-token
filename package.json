@@ -2,7 +2,10 @@
   "name": "work-token",
   "version": "1.1.0",
   "description": "ERC20 token used on WorkChain.io platform.",
-  "main": " ",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/workchainio/work-token.git"
@@ -28,6 +31,8 @@
     "openzeppelin-solidity": "^1.10.0"
   },
   "devDependencies": {
-    "truffle": "^4.1.11"
+    "truffle": "^4.1.11",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0"
   }
 }
