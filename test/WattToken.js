@@ -1,11 +1,10 @@
-const WattToken = artifacts.require("WorkToken");
+const WATT = artifacts.require("WATT");
 const allowance = web3.toBigNumber(500).mul(10**18);
 
 contract("WattToken", function ([owner, alice, bob]) {
     let instance;
     beforeEach('setup contract for each test', async function () {
-        instance = await WattToken.new();
-        //console.log(instance);
+        instance = await WATT.new();
     })
     it('owner owns all tokens', async function () {
         balance = (await instance.balanceOf(owner)).toNumber();
@@ -14,7 +13,6 @@ contract("WattToken", function ([owner, alice, bob]) {
     it('owner can give allowance to beneficiery', async function () {
         assert.ok(await instance.approve(alice, allowance));
         resultingAllowance = (await instance.allowance(owner, alice)).toNumber();
-        //console.log("Allowence set to: "+resultingAllowance);
         assert.equal(allowance, resultingAllowance);
     });
     it('beneficiery can spend allowance', async function () {
